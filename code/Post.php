@@ -9,7 +9,7 @@
 class Post extends DataObject {
 	
 	static $db = array(
-		"Content" => "Text",
+		"Content" => "HTMLText",
 		"Status" => "Enum('Awaiting, Moderated, Rejected, Archived', 'Moderated')",
 	);
 	
